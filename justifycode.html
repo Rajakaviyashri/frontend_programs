@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: brown;
+        }
+        @media only screen and (max-width:600px) { 
+            body{
+         background-color: coral;
+         color: white;
+        }
+        }
+        .container{
+            display: flex;
+            /*justify-content: space-between;*/
+            justify-content: center;
+        }
+        .container>div{
+            padding: 10px;
+            font-size: 5vw;
+        }
+         .red{
+            background-color: red;
+            align-self: flex-start;
+        }
+        .green{
+            background-color: green;
+        }
+        .blue{
+            background-color:blue;
+            align-self: flex-end;
+        }
+
+    </style>
+</head>
+<body>
+     <div class="container">
+        <div class="red">1</div>
+        <div class="green">2</div>
+        <div class="blue">3</div>
+    </div>
+</body>
+</body>
+</html>
